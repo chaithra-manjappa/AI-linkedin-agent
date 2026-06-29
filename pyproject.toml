@@ -1,0 +1,11 @@
+[project]
+name = "ai-linkedin-agent"
+version = "0.1.0"
+description = "Application foundation for an AI LinkedIn agent."
+requires-python = ">=3.11"
+dependencies = [
+    "openai>=1.0.0",
+]
+
+[project.scripts]
+ai-linkedin-agent = "app.app:main"
