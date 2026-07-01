@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Application foundation for an AI LinkedIn agent."
 requires-python = ">=3.11"
 dependencies = [
+    "groq>=0.9.0",
     "openai>=1.0.0",
 ]
 
